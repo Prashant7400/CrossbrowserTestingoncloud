@@ -22,6 +22,8 @@ public void titleCheck() throws MalformedURLException
 	WebDriver driver = new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"),caps);
 	driver.get("https://rahulshettyacademy.com");
     Assert.assertTrue(driver.getTitle().matches("Rahul Shetty Academy"));
+    
+    System.out.println("y person add new code in test 14Sep2023");
 
 	
 	
